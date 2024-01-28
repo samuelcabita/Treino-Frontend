@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background:linear-gradient(rgba(0,0,0,0.7),transparent);
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+     
+}
+.logo{
+    display: flex;
+    float: left;
+    gap: 10px;
+}
+.logo h1{
+    color: #fff;
+    font-weight: 700;
+}
+.header-center{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    float: left;
+    gap: 30px;
+    padding-top: 6px;
+    
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+.nav ul li a:hover{
+    border-bottom: 3px solid rgba(16, 145, 252, 0.527);
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    
+}
+/*section{
+  width: 100%;
+    min-height: 100vh;
+    background-size: cover;*/
+
+
+section:nth-of-type(1){
+    background-image:url("assects/header-background.jpg") ;
+}
+#home .sub{
+    
+    width: 450px;
+    height: 260px;
+    margin-right: 40%;
+    
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+#home .sub h2{
+    color: #fff;
+    font-size: 57px;
+    font-weight: 600;
+    font-family: Playfair Display;
+    
+}
+.botao{
+    
+    display: flex;
+    margin-right: 820px;
+    float: 20px;
+    gap:50px
+}
+.botao .a{
+    background-color: rgb(11, 82, 139);
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.a:hover{
+    background-color: #524545;
+    border: 1px solid #fff;
+}
+.botao a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding-top: 19px;
+
+}
+
+.about-center{
+    background-color: rgb(224, 245, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    background-color:rgb(224, 245, 252);
+    width: 1015px;
+    height: 400px;
+    display:flex;
+    gap: 10px;
+    margin-top: 90px;
+    
+}
+.item:nth-of-type(1){
+   /* background-color: blue;*/
+    width:500px ;
+}
+.item:nth-of-type(2){
+   /* background-color:yellow;*/
+    width:500px ;
+    
+}
+.item:nth-of-type(3){
+   /* background-color: blue;*/
+    width:500px ;
+}
+#about .main .item h3{
+    font-family:Playfair Display;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+#about .main .item #p{
+    font-family:sans-serif ;
+    font-size: 24px;
+    padding-top: 20px;
+    color: #1a1919;
+}
+#about .main .item h2{
+    font-family:Playfair Display ;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #1515dd;
+    
+}
+#about .main .item h1{
+    font-family:Playfair Display ;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+p{
+    padding-bottom: 15px;
+}
+.offered-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    /*background-color: red;*/
+    width: 720px;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-family:Playfair Display ;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.titulo p{
+    font-family: sans-serif;
+}
+span{
+    padding-left: 60px;
+}
+
+.caixas{
+    /*background-color: black;*/
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.caixa img{
+    width: 60px;
+    height: 60px;
+}
+.icone{
+    margin: 20px;
+    
+}
+.caixa:nth-of-type(1){
+    /*background-color: #1515dd;*/
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+}
+.caixa:nth-of-type(2){
+   /* background-color: #c9dd15;*/
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+}
+.caixa:nth-of-type(3){
+   /* background-color: #1515dd;*/
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+}
+.caixa.caixa-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#design{
+    margin: 50px;
+    font-family: Playfair Display;
+
+}
+#paragrafo{
+    margin: 55px;
+    
+
+}
+.icone{
+    margin:30px;
+
+}
+.imagem{
+    display: flex;
+
+}
+.foto{
+    background-color: black;
+    width: 50%;
+    height: 690px;
+
+}
+.habilidades{
+    background-color:#f7fbfdd3;
+    width: 50%;
+    height: 690px;
+
+}
+.habil-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+    padding-top: 30px;
+}
+#work{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.paragra{
+    padding-bottom: 30px;
+
+    
+}
+.work{
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.icones img{
+    width: 50px;
+    margin-left:10px ;
+   
+}
+.foto {
+    background-image: url("assects/details-background.jpg");
+    background-size: cover;
+}
+.delivry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-center{
+   
+    width: 700px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-top: 70px;
+}
+#deli{
+    font-family:Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.jobs{
+    
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+
+}
+.job-center{
+    
+    width: 1120px;
+    height: 4;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.job img{
+    background-color: #1515dd;
+    width: 365px;
+    height: 200px;
+}
+
+
+
+
+
+
