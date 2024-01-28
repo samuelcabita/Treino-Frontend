@@ -1,0 +1,19 @@
+<section id="About">
+        <div class="imagem">
+            <img src="assects/about.jpg" alt="">
+        </div>
+
+        <div class="about-us">
+            <h1>About Me</h1>
+            <ul>
+                <li>Name:Clark Thompson</li>
+                <li>Date of birth:January 01, 1987</li>
+                <li>Address:San Francisco CA 97987 USA</li>
+                <li>Zip code:1000</li>
+                <li>Email:clarkthomp@gmail.com</li>
+                <li>Phone: +1-2234-5678-9-0</li>
+            </ul>
+            <h3>120 Project complete</h3>
+            <button>DOWNLOAD CV</button>
+        </div>
+    </section>
