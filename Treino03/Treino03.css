@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    background-image:url("assects/bg-intro-desktop.png") ;
+    background-position: center;
+    background-color: rgb(250, 106, 130);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container-flex{
+   /* background-color: blue;*/
+    width: 1200px;
+    height: 559px;
+    display: flex;
+    gap: 40px;
+}
+.content{
+   /* background-color: red;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.form{
+   /* background-color: aqua;*/
+    width: 50%;
+    height: 100%
+}
+.sub-content{
+  /*  background-color: brown;*/
+    width: 500px;
+    height: 205px;
+}
+.sub-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.sub-content p{
+   font-size: 17px;
+    color: #fff;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.head{
+    background-color: rgb(23, 80, 204);
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    box-shadow: #000;
+}
+.head h4{
+    color: #fff;
+}
+.head span{
+    font-weight: 400;
+}
+.cadaster{
+  background-color: #fff;
+  width: 100%;
+  height: 88%;
+  border-radius: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    
+    
+}
+.input-box input{
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.input-box button{
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(29, 206, 29);
+}
+.input-box button:active{
+    background-color: #fff;
+    opacity: 0.7;
+}
+.input-box>p{
+    color: #b3b3b3;
+    width: 700px;
+}
+.input-box p>a{
+    text-decoration: none;
+    color: #cc1010;
+    font-weight: 700;
+}
